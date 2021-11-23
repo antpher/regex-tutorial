@@ -49,23 +49,45 @@ Quantifiers specify how many instances of a character or group must be present f
 
 ### OR Operator
 
-
+The OR operator, |, is used to match characters of either the left or the right of the | operator.
 
 ### Character Classes
 
+A character class allows you to match any symbol from a certain character set such as \d which turns a phone number with special characters such as (, ), and - into a plain text number.
+
 ### Flags
+
+Flags are tokens that modify its behavior of searching. 
+The i flag makes the expression search case-insensitively.
+g makes the expression search for all occurences.
 
 ### Grouping and Capturing
 
+Grouping and capturing expresssions are a way to treat multiple characters as a single unit.
+((A)(B(C)))
+
 ### Bracket Expressions
+
+A bracket expression is either a matching list expression or a non-matching list expression.
+[:alnum:] is also the same as [0-9a-zA-3]
 
 ### Greedy and Lazy Match
 
+A greedy match matches the longest possible string while a lazy match matches the shortest possible string.
+
 ### Boundaries
+
+A word boundary is a postion between /w and /W (non-word character), or at the beginning or end of a string.
 
 ### Back-references
 
+A backreference identifies a previously matched group and looks for exactly the same text again.
+
 ### Look-ahead and Look-behind
+
+Lookahead asserts that what immediately follows the current position is an uppercase letter while the lookbehind asserts that what immediately precedes the current position is a lowercase letter.
+Lookahead (?=foo)
+Lookbehind (?<=foo)
 
 ## Author
 
