@@ -91,4 +91,6 @@ Lookbehind (?<=foo)
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Anthony Her is was raised in Hickory, NC and graduated with a Bachelor's of Science in Biology. He has worked in many labs and now is looking for a career change into the tech world.
+
+GitHub: https://github.com/antpher
