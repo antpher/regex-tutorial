@@ -82,10 +82,12 @@ A word boundary is a postion between /w and /W (non-word character), or at the b
 ### Back-references
 
 A backreference identifies a previously matched group and looks for exactly the same text again.
+@"(\b\S+)\s+\1\b"
 
 ### Look-ahead and Look-behind
 
-Lookahead asserts that what immediately follows the current position is an uppercase letter while the lookbehind asserts that what immediately precedes the current position is a lowercase letter.
+Lookahead asserts that what immediately follows the current position is an uppercase letter.
+Lookbehind asserts that what immediately precedes the current position is a lowercase letter.
 Lookahead (?=foo)
 Lookbehind (?<=foo)
 
